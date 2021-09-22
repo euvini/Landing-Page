@@ -1,100 +1,14 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
     font-family: Roboto, sans-serif;
 }
 
-html,body{
-    height: 100%;
-    font-size: 62%;
-}
 
-.parent{
-    display: flex;
-}
-
-.sidebar{
-    width: 15%;
-    height: 100%;
-    position: fixed;
-    background-color: #9944046b;
-}
-
-.sidebar-pos{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.image-sidebar{
-    text-align: center;
-    
-}
-.image-sidebar img{
-    width: 70%;
-    border: 2px solid #49583C;
-}
-.menu{
-    margin: 20px 0;
-    text-align: center;
-}
-.menu a{
-    text-decoration: none;
-    color: #F4EFE9;
-    font-size: 1.6rem;
-    display: block;
-    margin: 10px;
-}
-.menu a:hover {
-    color: #49583C;
-  }
-
-.content{
-    width: 85%;
-    height: 100%;
-    left: 15%;
-    position: absolute;
-    overflow: auto;
-    padding-left: 3%;
-}
-
-.description {
-    width: 50%;
-    margin-top: 5%;
-}
-
-section.description h2{
-    color: #49583C;
-    font-size: 4.6rem;
-
-}
-section.description h2 > span{
-    color: #9944046b;
-}
-
-section.description h1{
-    color: #49583C;
-    font-size: 2.3rem;
-
-}
-section.description h1 > span{
-    color: #9944046b;
-}
-
-section.description h3{
-    color: rgb(63, 61, 61);
-    font-size: 2.0rem;
-    margin: 20px 0;
-}
-section.description p{
-    color: rgb(63, 61, 61);
-    font-size: 1.6rem;
-    margin-top: 40px;
-}
-
-div.row{
-    border: 1px solid rgb(63, 61, 61);
-    border-radius: 2%;
-    margin-top: 5%;
-}
+ .row-name {
+     display: grid;
+     border: 1px solid brown;
+     margin-bottom: 40px;
+     margin-top: 20px;
+     justify-content: center;
+ }
